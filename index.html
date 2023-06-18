@@ -16,13 +16,13 @@
             <nav id="nav-bar">
                 <ul>
                     <li>
-                        <a class="nav-link" href="#">Where to buy</a>
+                        <a class="nav-link" href="#form">Tell us about yourself</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="#">Flavors</a>
+                        <a class="nav-link" href="#pics-with-text">Flavors</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="#">Work with us</a>
+                        <a class="nav-link" href="#video-div">How to make</a>
                     </li>
                 </ul>
             </nav>
@@ -31,9 +31,27 @@
         <form name="email-form" id="form" action="https://www.freecodecamp.com/email-submit">
           <h2>Let us know about your favorite bagels</h2>
           <input type="text" placeholder="What's your favorite flavor?">
-          <input id='email' type="email" placeholder='enter your EMAIL'>
-          <input type="submit">
+          <input id='email' type="email" name='email' placeholder='enter your EMAIL'>
+          <input type="submit" id="submit">
         </form>
+        <section id="pics-with-text">
+            <h2>Flavors</h2>
+            <div class="text-with-icons">
+                <img src="pics\bagel.png">
+                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime</span>
+            </div>
+            <div class="text-with-icons">
+                <img src="pics\bagel (1).png">
+                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime</span>
+            </div>
+            <div class="text-with-icons">
+                <img src="pics\chipa.png">
+                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime</span>
+            </div>
+        </section>
+        <div id="video-div">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/W8j-ZUp7KD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
     </div>
 </body>
 </html>

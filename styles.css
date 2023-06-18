@@ -1,30 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Poppins:wght@200;300;500&display=swap');
+
+/* BRUH IM SO BAD */
+
+
+
 *{
     padding:0;
     margin:0;
     box-sizing:border-box;
+    background-color: white;
 }
 
 body{
     font-size:10px;
     font-family:Caveat,sans-serif;
+    
+    
 }
 header{
+    height:15vh;
     display:flex;
     justify-content: space-between;
+    padding:0 5vh;
+    position:fixed;
+    top:0;
 
 }
+.header-logo{
+    width:40vw;
+}
 nav{
-    size:50%;
+    display:flex;
+    width:60vw;
 }
 ul{
+    width: 100%;
     list-style: none;
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
     text-align: center;
+    align-items: center;
+    font-size:1.5rem;
+    
 }
 
 header img{
-    height:200px;
-    width:200px;
+    width:100%;
+    height:100%;
+    max-height:10vh;
+    max-width:10vh;
+}
+
+section img{
+    height:60px;
+}
+h1{
+    margin-top:150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-page{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #nav-bar{
+    position:fixed;
+} */
+
+@media screen and (max-width:500px) {
+    form{
+        display:flex;
+        flex-direction: column;
+    }
+    .video-div{
+        height:100%;
+        width:100%;
+
+    }
 }
