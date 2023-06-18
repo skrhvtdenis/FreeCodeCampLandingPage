@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Poppins:wght@200;300;500&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-size:10px;
+    font-family:Caveat,sans-serif;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+
+}
+nav{
+    size:50%;
+}
+ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+header img{
+    height:200px;
+    width:200px;
+}
